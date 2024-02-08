@@ -4,54 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Webpack</title>
+    <title>Movie Finder</title>
 </head>
 
 <body class="bg-black text-light">
     <header>
-        <nav class="container">
-            <h1 class="text-danger">Movie Finder</h1>
-        </nav>
+        <title-bar></title-bar>
         <hr>
     </header>
-    <main class="container">
-        <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="../../assets/Harry-Potter.jpg" class="d-block w-100" alt="...">
+    <main>
+        <!-- <carousel-images></carousel-images> -->
+        <div class="container text-light">
+            <div class="row">
+                <aside class="col-2 border py-5">
+                    <h3>Genre</h3>
+                    <movies-genre id="tags"></movies-genre>
+                </aside>
+                <div class="col-10 border py-5">
+                    <search-tools></search-tools>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="../../assets/Best-South-Indian-movies.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../../assets/bestactionmovies-blogroll-1687567470634.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div> -->
-        <div class="row">
-            <div class="col-4 border py-5">
-                <h3>Filters</h3>
-            </div>
-            <div class="col-8 border py-5">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Discover your favorite movies here..." aria-label="Search">
-                    <button class="btn btn-danger" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </main>
     <footer>
         <hr>
         <p class="text-center p-3">Created with <i class="bi bi-suit-heart-fill text-danger"></i> by
-            <a href="https://www.instagram.com/muh.ikhsan_19/">Muhammad Ikhsan</a>
+            <a href="https://github.com/Ikhsan19" class="text-light text-decoration-none fw-bold">Muhammad Ikhsan</a>
         </p>
     </footer>
 </body>
