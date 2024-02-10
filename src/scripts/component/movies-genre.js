@@ -46,5 +46,4 @@ class MoviesGenre extends HTMLElement {
     }
 }
 
-
 customElements.define("movies-genre", MoviesGenre);

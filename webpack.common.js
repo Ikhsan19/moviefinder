@@ -5,10 +5,9 @@ const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    // mode: 'development',
-    entry: './app.js',
+    entry: './src/app.js',
     output: {
-        filename: 'bundle.js', //ganti jadi bundle.js
+        filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     devServer: {
