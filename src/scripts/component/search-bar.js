@@ -1,4 +1,4 @@
-class SearchTools extends HTMLElement {
+class SearchBar extends HTMLElement {
     connectedCallback() {
         this.render();
     }
@@ -26,4 +26,4 @@ class SearchTools extends HTMLElement {
     }
 }
 
-customElements.define('search-tools', SearchTools);
+customElements.define('search-bar', SearchBar);
