@@ -1,8 +1,9 @@
-import '../component/title-bar.js';
+import '../component/header-bar.js';
 // import '../component/carousel.js';
 // import '../component/movies-genre.js';
-import '../component/search-tools.js';
+import '../component/search-bar.js';
 import '../component/movies-list.js';
+import '../component/footer-bar.js';
 
 import DataSource from "../data/data-source.js";
 
